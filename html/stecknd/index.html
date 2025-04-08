@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CSE383 AI Tutor</title>
+    <link rel="icon" href="../assets/ProfileCircle.svg" type="image/svg">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!--NavBar-->
+    <nav class="navbar bg-body-tertiary fixed-top navbar-gradient">
+        <div class="container-fluid">
+
+
+            <!--Icon Left Corner-->
+            <a class="navbar-brand" href="../homepage/#">
+                <img src="../assets/ProfileCircle.svg" alt="FancySite Logo">
+            </a>
+
+
+            <!--Hamburger-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <!--Hamburger Dropdown-->
+            <div class="offcanvas offcanvas-end bg-primary" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+
+
+                <!--Dropdown Header-->
+                <div class="offcanvas-header navbar-gradient">
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+
+
+                <!--Dropdown Body-->
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-space-end flex-grow-1 pe-3">
+
+                        <!--Home-->
+                        <li class="nav-item">
+                            <h1><a class="nav-link text-white" href="../homepage/#">Home</a></h1>
+                        </li>
+
+                        <!--AI Page-->
+                        <li class="nav-item">
+                            <h1><a class="nav-link text-white" href="../tutor/#">AI Tutor</a></h1>
+                        </li>
+
+                        <!--AI History-->
+                        <li class="nav-item">
+                            <h2><a class="nav-link text-white" href="../tutor_history/#">History</a></h2>
+                        </li>
+
+                        <!--Brandon Duecaster-->
+                        <li class="nav-item">
+                            <h3><a class="nav-link text-white" href="../duecasbs/#">Brandon Duecaster</a></h3>
+                        </li>
+
+                        <!--David Steckner-->
+                        <li class="nav-item">
+                            <h3><a class="nav-link text-white" href="../stecknd/#">David Steckner</a></h3>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--Section Below the Navbar-->
+    <div id="actualBody" class="d-flex align-items-center ">
+        <div class="wide-container mt-5">
+
+            <div class="card-body">
+                <!-- Profile Header -->
+                <div class="text-center mb-4">
+                    <img src="../assets/stecknd.jpg" class="rounded-circle img-thumbnail pfp" alt="Profile Picture">
+                    <h1 class="mt-3">David Steckner</h1>
+                    <p class="text-muted">Major: Computer Science Minor: Mathematics</p>
+                </div>
+
+                <!-- About Section -->
+                <section id="about">
+                    <h3>About Me</h3>
+                    <p>
+                        I am a Senior attending Miami University expecting to graduate in December 25
+                    </p>
+
+                </section>
+
+
+
+                <section id="skills" class="mt-4">
+                    <h3>Skills</h3>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <ul>
+                                <li>Linux</li>
+                                <li>Nginx</li>
+                                <li>Apache</li>
+                                <li>Bootstrap</li>
+                                <li>Git</li>
+                                <li>NodeJS</li>
+                                <li>Postman</li>
+                                <li>Docker</li>
+                                <li>Kubernetes</li>
+                                <li>Arduino</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            <ul>
+                                <li>VMWare</li>
+                                <li>Multi-Threading</li>
+                                <li>VSCode</li>
+                                <li>Wireshark</li>
+                                <li>Nmap</li>
+                                <li>OpenSSH</li>
+                                <li>VirtualBox</li>
+                                <li>Blender</li>
+                                <li>Cloud Computing</li>
+                                <li>Godot</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            <ul>
+                                <li>Python</li>
+                                <li>JavaScript</li>
+                                <li>SQL</li>
+                                <li>Java</li>
+                                <li>C++</li>
+                                <li>Rust</li>
+                                <li>PHP</li>
+                                <li>BASH</li>
+                                <li>Swift</li>
+                                <li>Ruby</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            <ul>
+                                <li>Postman</li>
+                                <li>GitHub</li>
+                                <li>MySQL</li>
+                                <li>MongoDB</li>
+                                <li>MATLAB</li>
+                                <li>TensorFlow</li>
+                                <li>React</li>
+                                <li>Svelte</li>
+                                <li>MySQL</li>
+                                <li>Jupyter Notebook</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                
+                
+                
+
+                <!-- Education Section -->
+                <section id="education" class="mt-4">
+                    <h3>Education</h3>
+                    <div>
+                        <h5>Bachelor of Science in Computer Science (Minor Math)</h5>
+                        <p class="text-muted">Miami University | Expected Graduation: December 2025 | GPA: 3.97</p>
+                        <p class="text-muted">President's List: Fall 2023 | Spring 2024</p>
+                        <p class="text-muted">RedHawk Excellence Scholarship</p>
+                    </div>
+                    <div>
+                        <h5>Associate of Science in Computer Science</h5>
+                        <p class="text-muted">Cuyahoga Community College | July 2022 - June 2023 | GPA: 4.0</p>
+                        <p class="text-muted">President's List: Fall 2022 | Spring 2023</p>
+                    </div>
+                </section>
+
+                <!-- Experience Section -->
+                <section id="experience" class="mt-4">
+                    <h3>Work Experience</h3>
+                    <div class="mb-3">
+                        <h5>City of Beachwood, Beachwood, OH</h5>
+                        <p class="text-muted">Lifeguard & Maintenance & Front Desk</p>
+                        <ul>
+                            <li>First responder in multiple emergency situations</li>
+                            <li>Kept facilities well maintained and useable for employees and customers</li>
+                            <li>Managed customer interactions and inquiries</li>
+                        </ul>
+                    </div>
+                    <div class="mb-3">
+                        <h5>Beachwood Board of Education, Beachwood, OH</h5>
+                        <p class="text-muted">Game Worker</p>
+                        <ul>
+                            <li>Organized big wrestling tournaments for kids of varying ages</li>
+                            <li>Professionally handled upset parents & athletes with effective conflict resolution</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- Relevant Coursework Section -->
+                <section id="coursework" class="mt-4">
+                    <h3>Relevant Coursework</h3>
+                    <div class="mb-3">
+                        <ul>
+                            <li>Algorithms</li>
+                            <li>Automata</li>
+                            <li>Systems</li>
+                            <li>Data Structures</li>
+                            <li>Databases</li>
+                            <li>Web Apps</li>
+                            <li>Comparative Languages</li>
+                            <li>Software Engineering</li>
+                            <li>Calculus 3</li>
+                            <li>Linear Algebra</li>
+                            <li>Proofs</li>
+                            <li>Abstract Algebra</li>
+                            <li>Physics (Mechanics / E&M)</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- Hobbies Section -->
+                <section id="interests">
+                    <h3>Hobbies</h3>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h5>Running</h5>
+                            <p class="text-muted">All-American and State-Champion</p>
+                        </div>
+                        <div class="col-md-4">
+                            <h5>Math, Physics, and Computer Science Tutor</h5>
+                            <p class="text-muted">Provided one-on-one and group tutoring for high school and college
+                                students, helping them improve their understanding and performance in complex subjects.
+                            </p>
+                        </div>
+                        <div class="col-md-4">
+                            <h5>Computer Science Projects</h5>
+                            <p class="text-muted"> Made an AI chatbot that can help CS students learn. Made a City stat viewer 
+                                and comparer using FBI data and other sources for people who want to move to better neighborhoods.
+                                Made a football stat viewer that provides detailed data on every NFL player since the league's inception.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Contact Section -->
+                <section id="contact" class="mt-4">
+                    <h3>Contact</h3>
+                    <p>Email: <a href="mailto:davidsteckner@gmail.com">davidsteckner@gmail.com</a></p>
+                    <p>Phone: (440)-367-8221</p>
+                    <p>LinkedIn: <a href="https://www.linkedin.com/in/david-steckner"
+                            target="_blank">https://www.linkedin.com/in/david-steckner</a></p>
+                </section>
+
+
+
+
+                <!--Bootstrap Include-->
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+                    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+                    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

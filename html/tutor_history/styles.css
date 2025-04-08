@@ -1,0 +1,429 @@
+body {
+    min-width: 256px;
+    background-color: #09010E;
+}
+
+
+
+
+
+
+/*NAVBAR*/
+
+
+.navbar-gradient {
+    background: linear-gradient(to right, #B977F2, #EB2D8F);
+}
+
+.navbar-brand {
+    padding-left: 15px;
+}
+
+.navbar-brand img {
+    height: 40px;
+    width: auto;
+}
+
+.navbar-toggler {
+    margin-right: 15px;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.bg-primary {
+    background-color: #09010E !important;
+}
+
+.text-white {
+    color: #F0E2FC !important;
+}
+
+.nav-link {
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #960E75 !important;
+    transform: scale(1.1);
+}
+
+.offcanvas-header {
+    height: 66px !important;
+}
+
+
+
+
+
+
+
+
+
+/*BODY*/
+
+
+
+
+
+
+
+/*centering the elements other than the navbar*/
+#actualBody {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+
+.container {
+    margin-top: 66px;
+    width: 100%;
+    max-width: 480px;
+    background-color: rgba(240, 226, 252, 0.1);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(240, 226, 252, 0.3) !important;
+    text-align: center;
+}
+
+.container h1, .container-lg h1 {
+    user-select: none;
+    color: #F0E2FC;
+    font-size: 2rem;
+    font-weight: 600;
+    transition: color 0.3s ease, transform 0.3s ease;
+    margin: 0 20% 10px 20%;
+}
+
+.container h1:hover, .container-lg h1:hover {
+    color: #960E75 !important;
+    transform: scale(1.1);
+}
+
+.container p, .container-lg p{
+    user-select: none;
+    font-size: 1.1rem;
+    color: #F0E2FC;
+    margin-bottom: 5px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+
+.name {
+    margin: 0 30% 5px 30%;
+}
+
+.link:hover {
+    color: #960E75 !important;
+    transform: scale(1.1);
+}
+
+
+a {
+    text-decoration: none; /*remove underline*/
+}
+
+.container p.info {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*main button*/
+.container button, .container-lg button {
+    padding: 20px 40px;
+    background-color: #EB2D8F;
+    color: #09010E;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition:
+        background-color 0.3s ease,
+        color 0.3s ease,
+        border-radius 0.3s ease,
+        transform 0.3s ease 0.15s,
+        box-shadow 0.3s ease 0.15s;
+}
+
+
+.container button:hover, .container-lg button:hover {
+    background-color: #B977F2;
+    color: #09010E !important;
+    border-radius: 50px;
+    transform: scale(1.1);
+    box-shadow: 0 4px 12px #09010E !important;
+}
+
+/*color of button onclick*/
+.container button:active, .container-lg button:active {
+    background-color: #EB2D8F !important;
+}
+
+.container-lg {
+    margin-top: 66px;
+    width: 100%;
+    background-color: rgba(240, 226, 252, 0.1);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(240, 226, 252, 0.3) !important;
+    text-align: center;
+    
+}
+#GPTContainer{
+    margin-top: 66px;
+    width: 100%;
+    background-color: rgba(240, 226, 252, 0.1);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(240, 226, 252, 0.3) !important;
+    text-align: center;
+}
+label{
+    color: #F0E2FC;
+}
+
+
+#output{
+    color: #F0E2FC;
+    background-color: #09010E;
+    padding: 40px;
+    border: 2px solid rgba(172, 156, 185, 0.3);
+    border-radius: 10px;
+    text-align: left;
+}
+
+
+.bg-frosty, .bg-frosty:focus{
+    background-color: rgba(255, 255, 255, 0);
+    color: #F0E2FC;
+}
+
+.form-select option{
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+.form-select:focus {
+    background-color: #201827;
+    outline: none;
+    box-shadow: none;
+    border-color: #F0E2FC;
+}
+
+.form-select:hover {
+    box-shadow: 0 4px 12px rgba(240, 226, 252, 0.3);
+}
+
+.form-control:hover {
+    box-shadow: 0 4px 12px rgba(240, 226, 252, 0.3);
+}
+
+code {
+    color: #EB2D8F !important;
+}
+
+h3:hover {
+    cursor: default !important;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* For the table container */
+.table-responsive {
+    background-color: rgba(150, 150, 150, 0.05); /* Slightly lighter background */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4); /* Subtle shadow */
+}
+
+/* Custom table styles */
+table.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.05); /* Table background */
+    border: 2px solid #8c52ff; /* Table border color */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden;
+}
+
+/* Header and row styles */
+table.custom-table th {
+    background-color: #8c52ff;
+    color: #fff;
+    font-weight: 600;
+    padding: 8px 10px;
+    text-align: center;
+}
+table.custom-table th span{
+    background-color: #8c52ff;
+    color: #fff;
+    font-weight: 600;
+    padding: 8px 10px;
+    text-align: center;
+}
+
+table.custom-table td {
+    cursor: pointer;
+    padding: 8px 10px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #ddd;
+    border-bottom: 1px solid #8c52ff;
+    word-wrap: break-word;
+}
+
+table.custom-table tr:nth-child(even) {
+    background-color: rgba(150, 150, 150, 0.1); /* Alternating row color */
+}
+
+table.custom-table tr:hover {
+    background-color: rgba(150, 150, 150, 0.2); /* Highlight row on hover */
+    transition: background-color 0.3s ease-in-out;
+}
+
+.custom-table tr th:hover {
+    background: radial-gradient(circle, #7a47d7 10%, #8c52ff 100%);
+  }
+
+  #selectOptions {
+    font-size: 0.8rem;  /* Smaller font size */
+    padding: 5px 10px;  /* Reduced padding for a smaller button */
+    border-width: 1px;  /* Thin border */
+    background-color: #8c52ff;  /* Background color for better visibility */
+    color: #fff;  /* White text for contrast */
+    transition: background-color 0.3s ease, color 0.3s ease;  /* Smooth transition for hover effect */
+    border-radius: 5px;  /* Optional: Adding rounded corners for a nicer appearance */
+}
+
+#selectOptions:hover {
+    background-color: #7a47d7;  /* Darker background on hover */
+    color: #fff !important;  /* Keep text white for better visibility */
+}
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  /* Bootstrap container for dictionary */
+.dictionary-container {
+    background-color: #09010E; /* Dark container to match the rest of the page */
+    color: #f5f5f5; /* Light text for readability */
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    box-shadow: none !important;
+  
+    /* Grid layout for the dictionary */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns for the top layer */
+    gap: 20px; /* Space between grid items */
+    grid-template-rows: auto auto; /* Two layers of rows */
+    grid-template-areas:
+      "date time userlevel cost"
+      "userprompt userprompt levelprompt levelprompt"
+      "chatgptresponse chatgptresponse chatgptresponse chatgptresponse"; /* Define grid areas */
+  }
+  
+  /* Styling for each dictionary section */
+  .dictionary-section {
+    background-color: #201827; /* Slightly lighter background for each section */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Shadow to make items stand out */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  /* Section header styling */
+  .dictionary-key {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #9c27b0; /* Purple color for keys */
+    margin-bottom: 10px;
+    border-bottom: 2px solid #9c27b0; /* Purple underline for better emphasis */
+    padding-bottom: 5px;
+  }
+  
+  /* Value styling */
+  .dictionary-value {
+    font-size: 16px;
+    color: #e0e0e0; /* Light gray color for values */
+    line-height: 1.6; /* Increased line height for readability */
+  }
+  
+  /* Position each section in the grid */
+  .dictionary-section.date {
+    grid-area: date;
+  }
+  
+  .dictionary-section.time {
+    grid-area: time;
+  }
+  
+  .dictionary-section.userlevel {
+    grid-area: userlevel;
+  }
+  
+  .dictionary-section.cost {
+    grid-area: cost;
+  }
+  
+  .dictionary-section.userprompt {
+    grid-area: userprompt;
+  }
+  
+  .dictionary-section.levelprompt {
+    grid-area: levelprompt;
+  }
+  
+  .dictionary-section.chatgptresponse {
+    grid-area: chatgptresponse;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .dictionary-container {
+      display: block; /* Allow Bootstrap's grid to take over */
+      padding: 0; /* Remove custom padding */
+    }
+  
+    /* Bootstrap grid for the sections */
+    .dictionary-section {
+      width: 100%; /* Ensure each section takes full width */
+      margin-bottom: 20px; /* Add spacing between sections */
+    }
+  
+    .dictionary-key {
+      font-size: 1.5rem;
+      text-align: center; /* Keep text centered on mobile */
+    }
+  
+    .dictionary-value {
+      font-size: 14px; /* Adjust font size for smaller screens */
+    }
+  }
+  
+  /* Add left-alignment for ChatGPTResponse */
+  .left-align {
+    text-align: left !important;
+  }
+  

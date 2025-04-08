@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CSE383 AI Tutor</title>
+    <link rel="icon" href="../assets/ProfileCircle.svg" type="image/svg">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!--NavBar-->
+    <nav class="navbar bg-body-tertiary fixed-top navbar-gradient">
+        <div class="container-fluid">
+
+
+            <!--Icon Left Corner-->
+            <a class="navbar-brand" href="../homepage/">
+                <img src="../assets/ProfileCircle.svg" alt="FancySite Logo">
+            </a>
+
+
+            <!--Hamburger-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <!--Hamburger Dropdown-->
+            <div class="offcanvas offcanvas-end bg-primary" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+
+
+                <!--Dropdown Header-->
+                <div class="offcanvas-header navbar-gradient">
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+
+                
+                <!--Dropdown Body-->
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-space-end flex-grow-1 pe-3">
+
+                        <!--Home-->
+                        <li class="nav-item">
+                            <h1><a class="nav-link active text-white" aria-current="page" href="#">Home</a></h1>
+                        </li>
+
+                        <!--AI Page-->
+                        <li class="nav-item">
+                            <h1><a class="nav-link text-white" href="../tutor/#">AI Tutor</a></h1>
+                        </li>
+
+                        <!--AI History-->
+                        <li class="nav-item">
+                            <h2><a class="nav-link text-white" href="../tutor_history/#">History</a></h2>
+                        </li>
+
+                        <!--Brandon Duecaster-->
+                        <li class="nav-item">
+                            <h3><a class="nav-link text-white" href="../duecasbs/#">Brandon Duecaster</a></h3>
+                        </li>
+
+                        <!--David Steckner-->
+                        <li class="nav-item">
+                            <h3><a class="nav-link text-white" href="../stecknd/#">David Steckner</a></h3>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--Section Below the Navbar-->
+    <div id="actualBody" class="d-flex align-items-center min-vh-100">
+        <div class="row w-100 align-items-center">
+
+
+            <!--Left Column: Image-->
+            <div class="col-md-5">
+
+                <img src="https://imgs.search.brave.com/CxmJips-xOB_QWNo21Tn5RV-3kF8U88qRbek0wHmwRQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZWpvdXJuYWwub3Jn/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDI0/LzEwL0lzc3VlLTEy/Mi1TaGVyaWRhbl9Q/YWdlXzA4NV9JbWFn/ZV8wMDAxLXNjYWxl/ZC5qcGc"
+                    class="dynamic-image img-fluid" alt="Image of our project">
+                
+            </div>
+
+
+
+            <!--Right Column: Project Stats-->
+            <div class="col-md-7 d-flex justify-content-center align-items-center flex-column">
+
+                <!--Project info and button to AI-->
+                <div class="container p-4 shadow-lg rounded">
+                    <a href="../tutor/#"><h1 class="link">AI Tutor Chatbot</h1></a>
+                    <a href="../duecasbs/#"><p class="link name">Brandon Duecaster</p></a>
+                    <a href="../stecknd/#"><p class="link name">David Steckner</p></a>
+                    <p class="info">CSE383 Final Project</p>
+                    <a href="../tutor/#"><button class="btn btn-lg btn-primary px-4 py-3">Get Chatting</button></a>
+                </div>
+
+
+                <!--Description of project-->
+                <div class="container p-4 shadow-lg rounded">
+                    <p>A dynamic web application built with a modern technology stack including HTML, CSS, JavaScript, Bootstrap for responsive design, SQLite for data management, PHP for backend logic, Docker for containerization, and Apache as the web server.</p>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--Bootstrap Include-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+
+</body>
+</html>

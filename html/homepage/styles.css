@@ -1,0 +1,199 @@
+body {
+    min-width: 256px;
+    background-color: #09010E;
+}
+
+
+
+
+
+
+/*NAVBAR*/
+
+
+.navbar-gradient {
+    background: linear-gradient(to right, #B977F2, #EB2D8F);
+}
+
+.navbar-brand {
+    padding-left: 15px;
+}
+
+.navbar-brand img {
+    height: 40px;
+    width: auto;
+}
+
+.navbar-toggler {
+    margin-right: 15px;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.bg-primary {
+    background-color: #09010E !important;
+}
+
+.text-white {
+    color: #F0E2FC !important;
+}
+
+.nav-link {
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #960E75 !important;
+    transform: scale(1.1);
+}
+
+.offcanvas-header {
+    height: 66px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*BODY*/
+
+
+
+
+
+
+
+/*centering the elements other than the navbar*/
+#actualBody {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+
+.container {
+    margin-top: 66px;
+    width: 100%;
+    max-width: 480px;
+    background-color: rgba(240, 226, 252, 0.1);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(240, 226, 252, 0.3) !important;
+    text-align: center;
+}
+
+.container h1, .container-lg h1 {
+    user-select: none;
+    color: #F0E2FC;
+    font-size: 2rem;
+    font-weight: 600;
+    transition: color 0.3s ease, transform 0.3s ease;
+    margin: 0 20% 10px 20%;
+}
+
+.container h1:hover, .container-lg h1:hover {
+    color: #960E75 !important;
+    transform: scale(1.1);
+}
+
+.container p, .container-lg p{
+    user-select: none;
+    font-size: 1.1rem;
+    color: #F0E2FC;
+    margin-bottom: 5px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+
+.name {
+    margin: 0 30% 5px 30%;
+}
+
+.link:hover {
+    color: #960E75 !important;
+    transform: scale(1.1);
+}
+
+
+a {
+    text-decoration: none; /*remove underline*/
+}
+
+.container p.info {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*main button*/
+.container button, .container-lg button {
+    padding: 20px 40px;
+    background-color: #EB2D8F;
+    color: #09010E;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition:
+        background-color 0.3s ease,
+        color 0.3s ease,
+        border-radius 0.3s ease,
+        transform 0.3s ease 0.15s,
+        box-shadow 0.3s ease 0.15s;
+}
+
+
+.container button:hover, .container-lg button:hover {
+    background-color: #B977F2;
+    color: #09010E !important;
+    border-radius: 50px;
+    transform: scale(1.1);
+    box-shadow: 0 4px 12px #09010E !important;
+}
+
+/*color of button onclick*/
+.container button:active, .container-lg button:active {
+    background-color: #EB2D8F !important;
+}
+
+.container-lg {
+    margin-top: 66px;
+    width: 100%;
+    background-color: rgba(240, 226, 252, 0.1);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(240, 226, 252, 0.3) !important;
+    text-align: center;
+    
+}
+#GPTContainer{
+    margin-top: 66px;
+    width: 100%;
+    background-color: rgba(240, 226, 252, 0.1);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(240, 226, 252, 0.3) !important;
+    text-align: center;
+}
+label{
+    color: #F0E2FC;
+}
+
+
+#output{
+    color: #F0E2FC;
+    background-color: #09010E;
+    padding: 40px;
+    border: 2px solid rgba(172, 156, 185, 0.3);
+    border-radius: 10px;
+    text-align: left;
+}
